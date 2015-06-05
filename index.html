@@ -3,6 +3,17 @@ layout: default
 title: Home
 ---
 <div class="container">
+<div class="row">
+<div class="col-md-3 text-center padding10">
+<a class="btn btn-warning btn-lg" role="button" href="${link.path}/${link.name}">Download .zip file</a>
+</div>
+<div class="col-md-3 text-center padding10">
+<a class="btn btn-warning btn-lg" role="button" href="${link.path}/${link.name}">Download .tar file</a>
+</div>
+<div class="col-md-3 text-center padding10">
+<a class="btn btn-warning btn-lg" role="button" href="${link.path}/${link.name}">Go to Github repository</a>
+</div>
+
 <p> {{ site.html_url }}
 
 {{ followers_url }}
@@ -46,3 +57,4 @@ title: Home
 
 <p>Site.Github.public_repositories - {{ site.github.public_repositories }}</p>
 </div> 
+</div>
