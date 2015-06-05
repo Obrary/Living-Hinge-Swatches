@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 <div class="center">
-  <a href="https://github.com/Obrary/{{ site.github.project_title }}/archive/master.zip">
+  <a href="https://github.com/Obrary/{{ site.github.project_title }}/archive/master.zip" onClick="ga('send', 'event', 'VMA', 'Download design', '{{ site.github.project_title }}')">
   <img src="{{ site.baseurl }}{{ site.github.project_title | prepend:'/' }}/public/download-free-design-file.png" alt="Download free design package" class="center"></a>
   <br>This .zip file contains all of the CAD, interchange (.dxf, .pdf, etc) and CAM files for the {{ site.github.project_title }}
   </div>
