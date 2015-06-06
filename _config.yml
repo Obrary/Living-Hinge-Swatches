@@ -5,19 +5,12 @@ permalink:           pretty
 relative_permalinks: true
 
 # Setup
-title:               Obrary - download free open design
+title:               Obrary - download free open designs
 tagline:             Making it easy to make
-description:         'Open Design for {{ product }}'
+description:         'Open Design for {{ site.github.project_title }}'
 url:                 http://obrary.com
 baseurl:             ''
 paginate:            5
 
-# About/contact
-author:
-  name:              Scott Austin
-  url:               https://twitter.com/svaustin
-  email:             scotta@obrary.com
-
 # Custom vars
-version:             1.0.0
 product:			 Template
